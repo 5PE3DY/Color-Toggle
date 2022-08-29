@@ -1,0 +1,68 @@
+body{
+    background-color: #f1f1f1;
+}
+
+.dropbtn {
+    width: 40px;
+    height: 40px;
+    background-image: url("hamburger_menu.png");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    cursor: pointer;
+    float: left;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    top: 30px;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    overflow: auto;   
+    z-index: 1;
+    list-style: none;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.show {
+    display: block;
+}
+
+/*------ Color button ------*/
+
+#home-btn{
+    background-color: #f1f1f1;
+}
+
+#blue-btn{
+    background-color: blue;
+}
+
+#red-btn{
+    background-color: red;
+}
+
+#green-btn{
+    background-color: green;
+}
+
+#orange-btn{
+    background-color: orange;
+}
+
+#yellow-btn{
+    background-color: yellow;
+}
+
